@@ -1,0 +1,7 @@
+# ninja log v5
+6	56	1715321998330937705	build.ninja	d0d9478152c293ce
+1183	1422	1715242422960426307	untitled9	2ba2e4d53eb4e270
+2	7	0	clean	21ad5ff52251627
+12	757	1715245685471614968	CMakeFiles/MySQLConnectorExample.dir/CustomerData.cpp.o	5eee820617efaf8e
+12	679	1715245685392766874	CMakeFiles/MySQLConnectorExample.dir/main.cpp.o	a0921108266241bd
+757	789	1715245685504928925	MySQLConnectorExample	5058d8beb6da96ea
