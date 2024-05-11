@@ -1,0 +1,3 @@
+/Users/anthonyrivera/CLionProjects/untitled9/build/Unnamed-Debug/CMakeFiles/MySQLConnectorExample.dir
+/Users/anthonyrivera/CLionProjects/untitled9/build/Unnamed-Debug/CMakeFiles/edit_cache.dir
+/Users/anthonyrivera/CLionProjects/untitled9/build/Unnamed-Debug/CMakeFiles/rebuild_cache.dir
