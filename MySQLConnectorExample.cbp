@@ -5,7 +5,7 @@
 		<Option title="MySQLConnectorExample"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\opt\homebrew\opt\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Widgets\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6WidgetsTools\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6CoreTools\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6GuiTools\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Core\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Gui\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6DBus\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6DBusTools\;CMake Files\..\..\..\..\opt\homebrew\Cellar\;CMake Files\..\..\..\..\opt\homebrew\Cellar\qt\;CMake Files\..\..\..\..\opt\homebrew\Cellar\qt\6.7.0_1\;CMake Files\..\..\..\..\opt\homebrew\Cellar\qt\6.7.0_1\lib\;CMake Files\..\..\..\..\opt\homebrew\Cellar\qt\6.7.0_1\lib\cmake\;CMake Files\..\..\..\..\opt\homebrew\Cellar\qt\6.7.0_1\lib\cmake\Qt6\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\opt\homebrew\opt\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Widgets\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6WidgetsTools\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6CoreTools\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6GuiTools\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Core\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Gui\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6DBus\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6DBusTools\;CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\;CMake Files\..\..\..\..\opt\homebrew\Cellar\;CMake Files\..\..\..\..\opt\homebrew\Cellar\qt\;CMake Files\..\..\..\..\opt\homebrew\Cellar\qt\6.7.0_1\;CMake Files\..\..\..\..\opt\homebrew\Cellar\qt\6.7.0_1\lib\;CMake Files\..\..\..\..\opt\homebrew\Cellar\qt\6.7.0_1\lib\cmake\;CMake Files\..\..\..\..\opt\homebrew\Cellar\qt\6.7.0_1\lib\cmake\Qt6\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/anthonyrivera/CLionProjects/untitled9"/>
@@ -28,6 +28,7 @@
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SQL_LIB"/>
 					<Add directory="/Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/include"/>
 					<Add directory="/opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers"/>
 					<Add directory="/opt/homebrew/opt/qt6/lib/QtWidgets.framework"/>
@@ -37,6 +38,8 @@
 					<Add directory="/opt/homebrew/opt/qt6/include"/>
 					<Add directory="/opt/homebrew/opt/qt6/lib/QtGui.framework/Headers"/>
 					<Add directory="/opt/homebrew/opt/qt6/lib/QtGui.framework"/>
+					<Add directory="/opt/homebrew/opt/qt6/lib/QtSql.framework/Headers"/>
+					<Add directory="/opt/homebrew/opt/qt6/lib/QtSql.framework"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
@@ -62,6 +65,7 @@
 					<Add option="-DQT_CORE_LIB"/>
 					<Add option="-DQT_NO_DEBUG"/>
 					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SQL_LIB"/>
 					<Add directory="/Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/include"/>
 					<Add directory="/opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers"/>
 					<Add directory="/opt/homebrew/opt/qt6/lib/QtWidgets.framework"/>
@@ -71,6 +75,8 @@
 					<Add directory="/opt/homebrew/opt/qt6/include"/>
 					<Add directory="/opt/homebrew/opt/qt6/lib/QtGui.framework/Headers"/>
 					<Add directory="/opt/homebrew/opt/qt6/lib/QtGui.framework"/>
+					<Add directory="/opt/homebrew/opt/qt6/lib/QtSql.framework/Headers"/>
+					<Add directory="/opt/homebrew/opt/qt6/lib/QtSql.framework"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
@@ -740,6 +746,45 @@
 		</Unit>
 		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6DBusTools\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlConfigVersionImpl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlPlugins.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
+		</Unit>
+		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\opt\qt6\lib\cmake\Qt6Sql\"/>
 		</Unit>
 		<Unit filename="/Users/anthonyrivera/CLionProjects/untitled9/../../../../opt/homebrew/Cellar/qt/6.7.0_1/lib/cmake/Qt6/FindWrapAtomic.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\Cellar\qt\6.7.0_1\lib\cmake\Qt6\"/>

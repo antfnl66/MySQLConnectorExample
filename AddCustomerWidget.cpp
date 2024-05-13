@@ -1,4 +1,5 @@
 #include "AddCustomerWidget.h"
+#include <QMessageBox>
 #include <QFormLayout>
 
 AddCustomerWidget::AddCustomerWidget(QWidget *parent) : QWidget(parent) {
@@ -6,7 +7,7 @@ AddCustomerWidget::AddCustomerWidget(QWidget *parent) : QWidget(parent) {
 }
 
 void AddCustomerWidget::setupUi() {
-    // Create input fields and labels
+    // Initialize input fields and labels
     firstNameLineEdit = new QLineEdit(this);
     firstNameLabel = new QLabel("First Name:", this);
     lastNameLineEdit = new QLineEdit(this);
@@ -20,15 +21,15 @@ void AddCustomerWidget::setupUi() {
     addressLineEdit = new QLineEdit(this);
     addressLabel = new QLabel("Address:", this);
 
-    // Plan selection combo box
+    // Initialize the plan selection combo box
     planComboBox = new QComboBox(this);
-    planComboBox->addItems({"Plan 1", "Plan 2", "Plan 3"}); // Placeholder plans
+    planComboBox->addItems({"Plan 1", "Plan 2", "Plan 3"});
 
-    // Create buttons
+    // Initialize buttons
     saveButton = new QPushButton("Save", this);
     cancelButton = new QPushButton("Cancel", this);
 
-    // Layout
+    // Layout setup using QFormLayout for organized input fields
     QFormLayout *layout = new QFormLayout(this);
     layout->addRow(firstNameLabel, firstNameLineEdit);
     layout->addRow(lastNameLabel, lastNameLineEdit);
@@ -39,21 +40,15 @@ void AddCustomerWidget::setupUi() {
     layout->addRow("Plan:", planComboBox);
     layout->addRow(saveButton, cancelButton);
 
-    // Button connections
-    connect(saveButton, &QPushButton::clicked, this, [this](){
-        // Get data from input fields
-        QString firstName = firstNameLineEdit->text();
-        QString lastName = lastNameLineEdit->text();
-        QString email = emailLineEdit->text();
-        QString phoneNumber = phoneNumberLineEdit->text();
-        QString accountNumber = accountNumberLineEdit->text();
-        QString address = addressLineEdit->text();
-        QString plan = planComboBox->currentText();
-
-        emit customerAdded(firstName, lastName, email, phoneNumber, accountNumber, address, plan);
+    // Connect the Save button to emit customerAdded when clicked
+    connect(saveButton, &QPushButton::clicked, this, [this]() {
+        emit customerAdded(firstNameLineEdit->text(), lastNameLineEdit->text(), emailLineEdit->text(),
+                           phoneNumberLineEdit->text(), accountNumberLineEdit->text(), addressLineEdit->text(),
+                           planComboBox->currentText());
     });
 
-    connect(cancelButton, &QPushButton::clicked, this, [this](){
+    // Connect the Cancel button to emit cancelAddCustomer when clicked
+    connect(cancelButton, &QPushButton::clicked, this, [this]() {
         emit cancelAddCustomer();
     });
 }

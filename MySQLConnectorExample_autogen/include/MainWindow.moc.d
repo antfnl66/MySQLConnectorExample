@@ -1,4 +1,4 @@
-/Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/EWIEGA46WW/moc_MainWindow.cpp: /Users/anthonyrivera/CLionProjects/untitled9/MainWindow.h \
+/Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/include/MainWindow.moc: /Users/anthonyrivera/CLionProjects/untitled9/MainWindow.cpp \
   /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/moc_predefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/AvailabilityInternal.h \
@@ -93,6 +93,7 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/wait.h \
   /Users/anthonyrivera/CLionProjects/untitled9/AddCustomerWidget.h \
   /Users/anthonyrivera/CLionProjects/untitled9/CustomerData.h \
+  /Users/anthonyrivera/CLionProjects/untitled9/MainWindow.h \
   /Users/anthonyrivera/CLionProjects/untitled9/ModifyCustomerWidget.h \
   /Users/anthonyrivera/CLionProjects/untitled9/SearchViewCustomerWidget.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtCore.framework/Versions/A/Headers/QString \

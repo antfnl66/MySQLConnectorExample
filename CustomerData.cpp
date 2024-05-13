@@ -1,29 +1,25 @@
+// CustomerData.cpp
 #include "CustomerData.h"
-#include <iostream>
-#include <vector>
+#include <QDebug>
+#include <QSqlQuery>
 
-void CustomerDatabase::addCustomer(const QString& firstName,
-                                   const QString& lastName,
-                                   const QString& email,
-                                   const QString& phoneNumber,
-                                   const QString& accountNumber,
-                                   const QString& address,
+bool CustomerDatabase::addCustomer(const QString& firstName, const QString& lastName,
+                                   const QString& email, const QString& phoneNumber,
+                                   const QString& accountNumber, const QString& address,
                                    const QString& plan) {
-    std::cout << "Pretend to add customer: " << firstName.toStdString() << std::endl;
-    // No actual database operations are performed.
-}
+    QSqlQuery query;
+    query.prepare("INSERT INTO customers (firstName, lastName, email, phoneNumber, accountNumber, address, plan) VALUES (?, ?, ?, ?, ?, ?, ?)");
+    query.addBindValue(firstName);
+    query.addBindValue(lastName);
+    query.addBindValue(email);
+    query.addBindValue(phoneNumber);
+    query.addBindValue(accountNumber);
+    query.addBindValue(address);
+    query.addBindValue(plan);
 
-void CustomerDatabase::deleteCustomer(const QString& accountNumber) {
-    std::cout << "Pretend to delete customer with account number: " << accountNumber.toStdString() << std::endl;
-    // No actual database operations are performed.
-}
-
-void CustomerDatabase::modifyCustomer(const Customer& modifiedCustomer) {
-    std::cout << "Pretend to modify customer: " << modifiedCustomer.firstName.toStdString() << std::endl;
-    // No actual database operations are performed.
-}
-
-std::vector<Customer> CustomerDatabase::searchCustomers(const QString& searchTerm, const QString& searchCriteria) {
-    std::cout << "Pretend to search customers by: " << searchCriteria.toStdString() << " for " << searchTerm.toStdString() << std::endl;
-    return {}; // Return an empty vector as placeholder.
+    if (!query.exec()) {
+        qDebug() << "Error adding customer to database:" << query.lastError().text();
+        return false;
+    }
+    return true;
 }

@@ -189,6 +189,7 @@ MySQLConnectorExample: CMakeFiles/MySQLConnectorExample.dir/ModifyCustomerWidget
 MySQLConnectorExample: CMakeFiles/MySQLConnectorExample.dir/SearchViewCustomerWidget.cpp.o
 MySQLConnectorExample: CMakeFiles/MySQLConnectorExample.dir/build.make
 MySQLConnectorExample: /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Versions/A/QtWidgets
+MySQLConnectorExample: /opt/homebrew/opt/qt6/lib/QtSql.framework/Versions/A/QtSql
 MySQLConnectorExample: /opt/homebrew/opt/qt6/lib/QtGui.framework/Versions/A/QtGui
 MySQLConnectorExample: /opt/homebrew/opt/qt6/lib/QtCore.framework/Versions/A/QtCore
 MySQLConnectorExample: CMakeFiles/MySQLConnectorExample.dir/link.txt

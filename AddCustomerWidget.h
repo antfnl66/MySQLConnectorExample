@@ -5,24 +5,18 @@
 #include <QLineEdit>
 #include <QLabel>
 #include <QPushButton>
+#include <QComboBox>
 #include <QFormLayout>
-#include <QComboBox> // For the plan selection dropdown
 
 class AddCustomerWidget : public QWidget {
-    Q_OBJECT  // Qt macro to handle signals and slots
+Q_OBJECT
 
 public:
     explicit AddCustomerWidget(QWidget *parent = nullptr);
 
-    signals:
-            void cancelAddCustomer();
-    void customerAdded(const QString &firstName,
-                       const QString &lastName,
-                       const QString &email,
-                       const QString &phoneNumber,
-                       const QString &accountNumber,
-                       const QString &address,
-                       const QString &plan);
+signals:
+    void customerAdded(const QString &firstName, const QString &lastName, const QString &email, const QString &phoneNumber, const QString &accountNumber, const QString &address, const QString &plan);
+    void cancelAddCustomer();
 
 private:
     QLineEdit *firstNameLineEdit;
@@ -37,11 +31,11 @@ private:
     QLabel *phoneNumberLabel;
     QLabel *accountNumberLabel;
     QLabel *addressLabel;
-    QComboBox *planComboBox;
     QPushButton *saveButton;
     QPushButton *cancelButton;
+    QComboBox *planComboBox;
 
-    void setupUi(); // Function to set up the UI components
+    void setupUi();
 };
 
 #endif // ADDCUSTOMERWIDGET_H

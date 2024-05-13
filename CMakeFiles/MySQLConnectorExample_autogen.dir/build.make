@@ -69,8 +69,9 @@ include CMakeFiles/MySQLConnectorExample_autogen.dir/progress.make
 CMakeFiles/MySQLConnectorExample_autogen: MySQLConnectorExample_autogen/timestamp
 
 MySQLConnectorExample_autogen/timestamp: /opt/homebrew/opt/qt6/share/qt/libexec/moc
+MySQLConnectorExample_autogen/timestamp: /opt/homebrew/opt/qt6/share/qt/libexec/uic
 MySQLConnectorExample_autogen/timestamp: CMakeFiles/MySQLConnectorExample_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/anthonyrivera/CLionProjects/untitled9/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target MySQLConnectorExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/anthonyrivera/CLionProjects/untitled9/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target MySQLConnectorExample"
 	/usr/local/bin/cmake -E cmake_autogen /Users/anthonyrivera/CLionProjects/untitled9/CMakeFiles/MySQLConnectorExample_autogen.dir/AutogenInfo.json ""
 	/usr/local/bin/cmake -E touch /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/timestamp
 

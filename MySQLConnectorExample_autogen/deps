@@ -261,6 +261,14 @@ MySQLConnectorExample_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
 	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtGui.framework/Versions/A/Headers/qvalidator.h \
 	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/QSqlError \
+	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/QSqlQuery \
+	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qsqldatabase.h \
+	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qsqlerror.h \
+	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qsqlquery.h \
+	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qtsql-config.h \
+	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qtsqlexports.h \
+	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qtsqlglobal.h \
 	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QComboBox \
 	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QFormLayout \
 	/opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
@@ -490,6 +498,19 @@ MySQLConnectorExample_autogen/timestamp: \
 	/opt/homebrew/opt/qt6/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-release.cmake \
 	/opt/homebrew/opt/qt6/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	/opt/homebrew/opt/qt6/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-release.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlConfigVersionImpl.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlDependencies.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlPlugins.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlTargets-release.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlTargets.cmake \
+	/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlVersionlessTargets.cmake \
 	/opt/homebrew/opt/qt6/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
 	/opt/homebrew/opt/qt6/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
 	/opt/homebrew/opt/qt6/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake \

@@ -1074,14 +1074,6 @@ CMakeFiles/MySQLConnectorExample.dir/AddCustomerWidget.cpp.o: \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qabstractbutton.h \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QFormLayout \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qformlayout.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/QLayout \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlayout.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qlayoutitem.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qboxlayout.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qlayout.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QComboBox \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qcombobox.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qabstractitemdelegate.h \
@@ -1096,4 +1088,16 @@ CMakeFiles/MySQLConnectorExample.dir/AddCustomerWidget.cpp.o: \
   /opt/homebrew/opt/qt6/include/QtWidgets/qtabbar.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qrubberband.h \
-  /opt/homebrew/opt/qt6/include/QtCore/qabstractitemmodel.h
+  /opt/homebrew/opt/qt6/include/QtCore/qabstractitemmodel.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QFormLayout \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qformlayout.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/QLayout \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlayout.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qlayoutitem.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qboxlayout.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qlayout.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qgridlayout.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QMessageBox \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qmessagebox.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qdialog.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qdialogbuttonbox.h

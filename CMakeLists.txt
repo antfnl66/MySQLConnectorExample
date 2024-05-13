@@ -4,11 +4,14 @@ project(MySQLConnectorExample)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
 
-# Ensure this path points exactly where the bin, lib, and include directories for Qt6 are located
-set(CMAKE_PREFIX_PATH "/opt/homebrew/opt/qt6")
+# Assuming Qt6 is installed in a standard Homebrew location
+list(APPEND CMAKE_PREFIX_PATH "/opt/homebrew/Cellar/qt6")
 
-find_package(Qt6 COMPONENTS Widgets REQUIRED)
+# Find packages
+find_package(Qt6 COMPONENTS Widgets Sql REQUIRED)
 
 add_executable(MySQLConnectorExample
         main.cpp
@@ -19,4 +22,4 @@ add_executable(MySQLConnectorExample
         SearchViewCustomerWidget.cpp
 )
 
-target_link_libraries(MySQLConnectorExample Qt6::Widgets)
+target_link_libraries(MySQLConnectorExample Qt6::Widgets Qt6::Sql)

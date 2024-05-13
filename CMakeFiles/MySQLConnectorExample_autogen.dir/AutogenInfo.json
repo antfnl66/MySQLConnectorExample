@@ -325,7 +325,22 @@
 		"/usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake",
 		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake",
 		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake",
-		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake"
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlConfigVersionImpl.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake",
+		"/usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlDependencies.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlTargets.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlTargets-release.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlVersionlessTargets.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6SqlPlugins.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake",
+		"/usr/local/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-release.cmake",
+		"/opt/homebrew/opt/qt6/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/anthonyrivera/CLionProjects/untitled9",
 	"DEP_FILE" : "/Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/deps",
@@ -334,31 +349,31 @@
 	[
 		[
 			"/Users/anthonyrivera/CLionProjects/untitled9/AddCustomerWidget.h",
-			"Mu",
+			"MU",
 			"EWIEGA46WW/moc_AddCustomerWidget.cpp",
 			null
 		],
 		[
 			"/Users/anthonyrivera/CLionProjects/untitled9/CustomerData.h",
-			"Mu",
+			"MU",
 			"EWIEGA46WW/moc_CustomerData.cpp",
 			null
 		],
 		[
 			"/Users/anthonyrivera/CLionProjects/untitled9/MainWindow.h",
-			"Mu",
+			"MU",
 			"EWIEGA46WW/moc_MainWindow.cpp",
 			null
 		],
 		[
 			"/Users/anthonyrivera/CLionProjects/untitled9/ModifyCustomerWidget.h",
-			"Mu",
+			"MU",
 			"EWIEGA46WW/moc_ModifyCustomerWidget.cpp",
 			null
 		],
 		[
 			"/Users/anthonyrivera/CLionProjects/untitled9/SearchViewCustomerWidget.h",
-			"Mu",
+			"MU",
 			"EWIEGA46WW/moc_SearchViewCustomerWidget.cpp",
 			null
 		]
@@ -366,7 +381,14 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -384,6 +406,8 @@
 		"/opt/homebrew/opt/qt6/include",
 		"/opt/homebrew/opt/qt6/lib/QtGui.framework/Headers",
 		"/opt/homebrew/opt/qt6/lib/QtGui.framework",
+		"/opt/homebrew/opt/qt6/lib/QtSql.framework/Headers",
+		"/opt/homebrew/opt/qt6/lib/QtSql.framework",
 		"/usr/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include"
 	],
@@ -414,7 +438,7 @@
 	"PARALLEL" : 8,
 	"PARSE_CACHE_FILE" : "/Users/anthonyrivera/CLionProjects/untitled9/CMakeFiles/MySQLConnectorExample_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/opt/homebrew/opt/qt6/share/qt/libexec/moc",
-	"QT_UIC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "/opt/homebrew/opt/qt6/share/qt/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
 	"SETTINGS_FILE" : "/Users/anthonyrivera/CLionProjects/untitled9/CMakeFiles/MySQLConnectorExample_autogen.dir/AutogenUsed.txt",
@@ -422,30 +446,34 @@
 	[
 		[
 			"/Users/anthonyrivera/CLionProjects/untitled9/AddCustomerWidget.cpp",
-			"Mu",
+			"MU",
 			null
 		],
 		[
 			"/Users/anthonyrivera/CLionProjects/untitled9/CustomerData.cpp",
-			"Mu",
+			"MU",
 			null
 		],
 		[
 			"/Users/anthonyrivera/CLionProjects/untitled9/MainWindow.cpp",
-			"Mu",
+			"MU",
 			null
 		],
 		[
 			"/Users/anthonyrivera/CLionProjects/untitled9/ModifyCustomerWidget.cpp",
-			"Mu",
+			"MU",
 			null
 		],
 		[
 			"/Users/anthonyrivera/CLionProjects/untitled9/SearchViewCustomerWidget.cpp",
-			"Mu",
+			"MU",
 			null
 		],
-		[ "/Users/anthonyrivera/CLionProjects/untitled9/main.cpp", "Mu", null ]
+		[ "/Users/anthonyrivera/CLionProjects/untitled9/main.cpp", "MU", null ]
 	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }
