@@ -1,0 +1,5 @@
+/Users/anthonyrivera/CLionProjects/untitled9/CMakeFiles/MySQLConnectorExample.dir
+/Users/anthonyrivera/CLionProjects/untitled9/CMakeFiles/edit_cache.dir
+/Users/anthonyrivera/CLionProjects/untitled9/CMakeFiles/rebuild_cache.dir
+/Users/anthonyrivera/CLionProjects/untitled9/CMakeFiles/MySQLConnectorExample_autogen_timestamp_deps.dir
+/Users/anthonyrivera/CLionProjects/untitled9/CMakeFiles/MySQLConnectorExample_autogen.dir

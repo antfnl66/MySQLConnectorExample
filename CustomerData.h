@@ -1,30 +1,35 @@
 #ifndef CUSTOMERDATA_H
 #define CUSTOMERDATA_H
 
-#include <string>
 #include <vector>
-#include <mysqlx/xdevapi.h>
+#include <QString>
 
 struct Customer {
-    int id;
-    std::string name;
-    std::string plan;
+    QString firstName;
+    QString lastName;
+    QString email;
+    QString phoneNumber;
+    QString accountNumber;
+    QString address;
+    QString plan;
 };
 
 class CustomerDatabase {
 public:
-    CustomerDatabase();  // Constructor to initialize the database connection
-    ~CustomerDatabase(); // Destructor to close the database connection
+    CustomerDatabase() = default;
+    ~CustomerDatabase() = default;
 
-    void addCustomer(const Customer& newCustomer);
-    void deleteCustomer(int id);
+    void addCustomer(const QString& firstName,
+                     const QString& lastName,
+                     const QString& email,
+                     const QString& phoneNumber,
+                     const QString& accountNumber,
+                     const QString& address,
+                     const QString& plan);
+
+    void deleteCustomer(const QString& accountNumber);
     void modifyCustomer(const Customer& modifiedCustomer);
-    std::vector<Customer> searchCustomerByName(const std::string& name);
-
-private:
-    mysqlx::Session session;
-    mysqlx::Schema schema;
-    mysqlx::Table table;
+    std::vector<Customer> searchCustomers(const QString& searchTerm, const QString& searchCriteria);
 };
 
 #endif // CUSTOMERDATA_H

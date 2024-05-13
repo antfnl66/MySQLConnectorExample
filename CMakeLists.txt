@@ -1,28 +1,22 @@
 cmake_minimum_required(VERSION 3.28)
 project(MySQLConnectorExample)
 
-# Set C++ standard
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_AUTOMOC ON)
 
-# Find packages
-find_package(Qt6 COMPONENTS Widgets REQUIRED)  # Make sure QtWidgets is included
+# Ensure this path points exactly where the bin, lib, and include directories for Qt6 are located
+set(CMAKE_PREFIX_PATH "/opt/homebrew/opt/qt6")
 
-# Include MySQL Connector/C++ headers
-include_directories(/opt/homebrew/Cellar/mysql-connector-c++/8.3.0/include)
+find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
-# Link directories for MySQL Connector/C++
-link_directories(/opt/homebrew/Cellar/mysql-connector-c++/8.3.0/lib)
-
-# Add sources
 add_executable(MySQLConnectorExample
-    main.cpp
-    CustomerData.cpp
-    mainwindow.cpp
+        main.cpp
+        CustomerData.cpp
+        MainWindow.cpp
+        AddCustomerWidget.cpp
+        ModifyCustomerWidget.cpp
+        SearchViewCustomerWidget.cpp
 )
 
-# UI files, headers
-target_sources(MySQLConnectorExample PRIVATE mainwindow.ui)
-
-# Link libraries
-target_link_libraries(MySQLConnectorExample Qt6::Widgets mysqlcppconn8)
+target_link_libraries(MySQLConnectorExample Qt6::Widgets)

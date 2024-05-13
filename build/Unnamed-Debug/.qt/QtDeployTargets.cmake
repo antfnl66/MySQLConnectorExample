@@ -1,1 +1,0 @@
-set(__QT_DEPLOY_TARGET_MySQLConnectorExample_FILE /Users/anthonyrivera/CLionProjects/untitled9/build/Unnamed-Debug/MySQLConnectorExample)

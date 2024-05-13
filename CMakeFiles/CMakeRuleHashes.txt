@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+fb439446b718f7f0a5e3ed4c1804d968 CMakeFiles/MySQLConnectorExample_autogen
+fb439446b718f7f0a5e3ed4c1804d968 CMakeFiles/MySQLConnectorExample_autogen_timestamp_deps
+891843de9bbce2669143e4666a7d51be MySQLConnectorExample_autogen/timestamp
