@@ -11,14 +11,14 @@
 #include "ModifyCustomerWidget.h"
 
 class MainWindow : public QWidget {
-Q_OBJECT  // This macro is essential for signal-slot mechanism
+Q_OBJECT
 
 public:
-    explicit MainWindow(CustomerDatabase& db, QWidget *parent = nullptr); // Constructor accepting a database reference
+    explicit MainWindow(CustomerDatabase& db, QWidget *parent = nullptr);
 
 private slots:
     void showAddCustomerForm();
-    void showHomeWidget(); // Ensure this is declared
+    void showHomeWidget();
     void showModifyCustomerForm();
     void showSearchViewCustomerForm();
     void handleCustomerAdded(const QString& firstName, const QString& lastName,
@@ -27,7 +27,7 @@ private slots:
                              const QString& plan);
 
 private:
-    CustomerDatabase& db;  // Reference to CustomerDatabase
+    CustomerDatabase& db;
     QPushButton* addButton;
     QPushButton* searchViewButton;
     QPushButton* modifyButton;
@@ -38,7 +38,7 @@ private:
     SearchViewCustomerWidget *searchViewCustomerWidget;
     ModifyCustomerWidget *modifyCustomerWidget;
 
-    void setupUi();  // Setup the UI components and layout
+    void setupUi();
     void connectSignals();
 };
 

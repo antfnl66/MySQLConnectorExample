@@ -1057,13 +1057,10 @@ CMakeFiles/MySQLConnectorExample.dir/AddCustomerWidget.cpp.o: \
   /opt/homebrew/opt/qt6/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/opt/qt6/include/QtGui/qcursor.h \
   /opt/homebrew/opt/qt6/include/QtGui/qbitmap.h \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractbutton.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qwidget.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qframe.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qwidget.h \
   /opt/homebrew/opt/qt6/include/QtGui/qtextcursor.h \
   /opt/homebrew/opt/qt6/include/QtGui/qtextdocument.h \
   /opt/homebrew/opt/qt6/include/QtCore/qurl.h \
@@ -1089,6 +1086,9 @@ CMakeFiles/MySQLConnectorExample.dir/AddCustomerWidget.cpp.o: \
   /opt/homebrew/opt/qt6/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qrubberband.h \
   /opt/homebrew/opt/qt6/include/QtCore/qabstractitemmodel.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QFormLayout \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qformlayout.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/QLayout \
@@ -1104,4 +1104,6 @@ CMakeFiles/MySQLConnectorExample.dir/AddCustomerWidget.cpp.o: \
   /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/qsqldatabase.h \
   /opt/homebrew/opt/qt6/include/QtSql/qtsqlglobal.h \
   /opt/homebrew/opt/qt6/include/QtSql/qtsql-config.h \
-  /opt/homebrew/opt/qt6/include/QtSql/qtsqlexports.h
+  /opt/homebrew/opt/qt6/include/QtSql/qtsqlexports.h \
+  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QDebug \
+  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qdebug.h

@@ -44,4 +44,11 @@ bool CustomerDatabase::addCustomer(const QString& firstName, const QString& last
     return true;
 }
 
+std::vector<Customer> CustomerDatabase::getHardCodedCustomers() {
+    std::vector<Customer> customers;
+    customers.push_back({"Anthony", "Rivera", "anthony@example.com", "123-456-7890", "123456", "Philadelphia, PA", "Plan 1"});
+    // Add more hard-coded customers as needed
+    return customers;
+}
+
 // Implement other methods if necessary

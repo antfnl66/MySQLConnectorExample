@@ -1090,7 +1090,9 @@ CMakeFiles/MySQLConnectorExample.dir/AddCustomerWidget.cpp.o: AddCustomerWidget.
   /opt/homebrew/opt/qt6/include/QtWidgets/qtwidgetsexports.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qwidget.h \
+  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QDebug \
   /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qdebug.h \
   /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qstring.h \
   /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/QSqlDatabase \
   /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/qsqldatabase.h \
@@ -3059,7 +3061,6 @@ CMakeFiles/MySQLConnectorExample.dir/MainWindow.cpp.o: MainWindow.cpp \
   CustomerData.h \
   MainWindow.h \
   ModifyCustomerWidget.h \
-  MySQLConnectorExample_autogen/include/MainWindow.moc \
   SearchViewCustomerWidget.h \
   /opt/homebrew/opt/qt6/include/QtCore/q20functional.h \
   /opt/homebrew/opt/qt6/include/QtCore/q20memory.h \
@@ -3258,6 +3259,7 @@ CMakeFiles/MySQLConnectorExample.dir/MainWindow.cpp.o: MainWindow.cpp \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QStackedWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTableWidget \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qboxlayout.h \
@@ -3270,6 +3272,7 @@ CMakeFiles/MySQLConnectorExample.dir/MainWindow.cpp.o: MainWindow.cpp \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qstackedwidget.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtablewidget.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qwidget.h
 
 CMakeFiles/MySQLConnectorExample.dir/ModifyCustomerWidget.cpp.o: ModifyCustomerWidget.cpp \
@@ -5484,6 +5487,7 @@ CMakeFiles/MySQLConnectorExample.dir/MySQLConnectorExample_autogen/mocs_compilat
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QStackedWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTableWidget \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qboxlayout.h \
@@ -5496,6 +5500,7 @@ CMakeFiles/MySQLConnectorExample.dir/MySQLConnectorExample_autogen/mocs_compilat
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qstackedwidget.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtablewidget.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qwidget.h
 
 CMakeFiles/MySQLConnectorExample.dir/SearchViewCustomerWidget.cpp.o: SearchViewCustomerWidget.cpp \
@@ -6565,6 +6570,7 @@ CMakeFiles/MySQLConnectorExample.dir/SearchViewCustomerWidget.cpp.o: SearchViewC
   /opt/homebrew/opt/qt6/include/QtWidgets/QLayout \
   /opt/homebrew/opt/qt6/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qabstractitemdelegate.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractscrollarea.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qabstractslider.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qabstractspinbox.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qboxlayout.h \
@@ -6583,11 +6589,14 @@ CMakeFiles/MySQLConnectorExample.dir/SearchViewCustomerWidget.cpp.o: SearchViewC
   /opt/homebrew/opt/qt6/include/QtWidgets/qtwidgetsexports.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qwidget.h \
+  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QDebug \
+  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qdebug.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QComboBox \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QFormLayout \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qboxlayout.h \
@@ -6597,6 +6606,7 @@ CMakeFiles/MySQLConnectorExample.dir/SearchViewCustomerWidget.cpp.o: SearchViewC
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlayout.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qwidget.h
 
 CMakeFiles/MySQLConnectorExample.dir/main.cpp.o: main.cpp \
@@ -7720,6 +7730,7 @@ CMakeFiles/MySQLConnectorExample.dir/main.cpp.o: main.cpp \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QStackedWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTableWidget \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qapplication.h \
@@ -7733,6 +7744,7 @@ CMakeFiles/MySQLConnectorExample.dir/main.cpp.o: main.cpp \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qstackedwidget.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtablewidget.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qwidget.h
 
 
@@ -7770,11 +7782,9 @@ MySQLConnectorExample_autogen/mocs_compilation.cpp:
 
 /opt/homebrew/opt/qt6/include/QtWidgets/qabstractscrollarea.h:
 
-SearchViewCustomerWidget.h:
-
 /opt/homebrew/opt/qt6/include/QtCore/qitemselectionmodel.h:
 
-MySQLConnectorExample_autogen/include/MainWindow.moc:
+SearchViewCustomerWidget.h:
 
 MainWindow.h:
 
@@ -7783,10 +7793,6 @@ MainWindow.h:
 /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/qsqlerror.h:
 
 /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/QSqlError:
-
-/opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qdebug.h:
-
-/opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QDebug:
 
 CustomerData.cpp:
 
@@ -7804,7 +7810,11 @@ CustomerData.cpp:
 
 /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/QSqlDatabase:
 
+/opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qdebug.h:
+
 /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QString:
+
+/opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QDebug:
 
 /opt/homebrew/opt/qt6/include/QtWidgets/qtabwidget.h:
 
@@ -8337,6 +8347,8 @@ AddCustomerWidget.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/void_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
+
+/opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/xlocale/_time.h:
 
@@ -8897,6 +8909,8 @@ AddCustomerWidget.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/access.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__ios/fpos.h:
+
+/opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__fwd/tuple.h:
 

@@ -1,22 +1,23 @@
 #include "AddCustomerWidget.h"
+#include <QDebug>
 
-AddCustomerWidget::AddCustomerWidget(QWidget *parent, CustomerDatabase* db)
+AddCustomerWidget::AddCustomerWidget(QWidget *parent, CustomerDatabase *db)
         : QWidget(parent), m_db(db) {
     setupUi();
 }
 
 void AddCustomerWidget::setupUi() {
     firstNameLineEdit = new QLineEdit(this);
-    lastNameLineEdit = new QLineEdit(this);
-    emailLineEdit = new QLineEdit(this);
-    phoneNumberLineEdit = new QLineEdit(this);
-    accountNumberLineEdit = new QLineEdit(this);
-    addressLineEdit = new QLineEdit(this);
     firstNameLabel = new QLabel("First Name:", this);
+    lastNameLineEdit = new QLineEdit(this);
     lastNameLabel = new QLabel("Last Name:", this);
+    emailLineEdit = new QLineEdit(this);
     emailLabel = new QLabel("Email:", this);
+    phoneNumberLineEdit = new QLineEdit(this);
     phoneNumberLabel = new QLabel("Phone Number:", this);
+    accountNumberLineEdit = new QLineEdit(this);
     accountNumberLabel = new QLabel("Account Number:", this);
+    addressLineEdit = new QLineEdit(this);
     addressLabel = new QLabel("Address:", this);
     planComboBox = new QComboBox(this);
     planComboBox->addItems({"Plan 1", "Plan 2", "Plan 3"});
@@ -39,14 +40,13 @@ void AddCustomerWidget::setupUi() {
 }
 
 void AddCustomerWidget::addCustomerToDatabase() {
-    if (m_db) {
-        bool success = m_db->addCustomer(firstNameLineEdit->text(), lastNameLineEdit->text(), emailLineEdit->text(),
-                                         phoneNumberLineEdit->text(), accountNumberLineEdit->text(), addressLineEdit->text(),
-                                         planComboBox->currentText());
-        if (success) {
-            qDebug() << "Customer added successfully";
-        } else {
-            qDebug() << "Failed to add customer";
-        }
+    bool success = m_db->addCustomer(firstNameLineEdit->text(), lastNameLineEdit->text(), emailLineEdit->text(),
+                                     phoneNumberLineEdit->text(), accountNumberLineEdit->text(), addressLineEdit->text(),
+                                     planComboBox->currentText());
+
+    if (success) {
+        qDebug() << "Customer added successfully";
+    } else {
+        qDebug() << "Failed to add customer";
     }
 }

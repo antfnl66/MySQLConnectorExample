@@ -250,10 +250,12 @@
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QLayout \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QLineEdit \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QTextEdit \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemdelegate.h \
+  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qabstractspinbox.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
@@ -273,6 +275,7 @@
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qstyleoption.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qtabbar.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qtextedit.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \

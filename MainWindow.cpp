@@ -15,7 +15,7 @@ void MainWindow::setupUi() {
     exitButton = new QPushButton("Exit", this);
     stackedWidget = new QStackedWidget(this);
 
-    addCustomerWidget = new AddCustomerWidget(this);
+    addCustomerWidget = new AddCustomerWidget(this, &db);
     searchViewCustomerWidget = new SearchViewCustomerWidget(this);
     modifyCustomerWidget = new ModifyCustomerWidget(this);
 
@@ -37,13 +37,10 @@ void MainWindow::connectSignals() {
     connect(searchViewButton, &QPushButton::clicked, this, &MainWindow::showSearchViewCustomerForm);
     connect(modifyButton, &QPushButton::clicked, this, &MainWindow::showModifyCustomerForm);
     connect(exitButton, &QPushButton::clicked, this, &QWidget::close);
+    connect(addCustomerWidget, &AddCustomerWidget::cancelAddCustomer, this, &MainWindow::showHomeWidget);
 }
 
 void MainWindow::showAddCustomerForm() {
-    stackedWidget->setCurrentWidget(addCustomerWidget);
-}
-
-void MainWindow::showHomeWidget() { // Ensure this is defined
     stackedWidget->setCurrentWidget(addCustomerWidget);
 }
 
@@ -53,6 +50,10 @@ void MainWindow::showSearchViewCustomerForm() {
 
 void MainWindow::showModifyCustomerForm() {
     stackedWidget->setCurrentWidget(modifyCustomerWidget);
+}
+
+void MainWindow::showHomeWidget() {
+    stackedWidget->setCurrentWidget(addCustomerWidget); // Assuming this is the home widget
 }
 
 void MainWindow::handleCustomerAdded(const QString& firstName, const QString& lastName,
@@ -65,6 +66,3 @@ void MainWindow::handleCustomerAdded(const QString& firstName, const QString& la
         qDebug() << "Customer added successfully";
     }
 }
-
-// Include the MOC file at the very end of the source file
-#include "MainWindow.moc"

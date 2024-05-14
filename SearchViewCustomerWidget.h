@@ -2,12 +2,13 @@
 #define SEARCHVIEWCUSTOMERWIDGET_H
 
 #include <QWidget>
-#include <QPushButton>
 #include <QVBoxLayout>
 #include <QLineEdit>
 #include <QComboBox>
+#include <QPushButton>
 #include <QLabel>
 #include <QFormLayout>
+#include <QTextEdit>
 
 class SearchViewCustomerWidget : public QWidget {
 Q_OBJECT
@@ -15,19 +16,21 @@ Q_OBJECT
 public:
     explicit SearchViewCustomerWidget(QWidget *parent = nullptr);
 
-signals:
+private slots:
     void cancelSearch();
+    void performSearch();
 
 private:
-    QVBoxLayout* mainLayout;
-    QLineEdit* searchLineEdit;
-    QComboBox* searchCriteriaComboBox;
-    QLabel* resultsLabel;
-    QPushButton* searchButton;
-    QPushButton* cancelButton;
-
     void setupUi();
-    void performSearch();
+    void displayResults(const QString& results);
+
+    QVBoxLayout *mainLayout;
+    QLineEdit *searchLineEdit;
+    QComboBox *searchCriteriaComboBox;
+    QPushButton *searchButton;
+    QPushButton *cancelButton;
+    QLabel *resultsLabel;
+    QTextEdit *resultsBox;
 };
 
 #endif // SEARCHVIEWCUSTOMERWIDGET_H

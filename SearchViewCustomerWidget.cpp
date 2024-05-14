@@ -1,4 +1,5 @@
 #include "SearchViewCustomerWidget.h"
+#include <QDebug>
 
 SearchViewCustomerWidget::SearchViewCustomerWidget(QWidget *parent)
         : QWidget(parent) {
@@ -15,25 +16,54 @@ void SearchViewCustomerWidget::setupUi() {
     searchButton = new QPushButton("Search", this);
     cancelButton = new QPushButton("Cancel", this);
 
-    QFormLayout* searchLayout = new QFormLayout;
+    connect(cancelButton, &QPushButton::clicked, this, &SearchViewCustomerWidget::cancelSearch);
+    connect(searchButton, &QPushButton::clicked, this, &SearchViewCustomerWidget::performSearch);
+
+    QFormLayout *searchLayout = new QFormLayout();
     searchLayout->addRow("Search:", searchLineEdit);
     searchLayout->addRow("Criteria:", searchCriteriaComboBox);
 
     mainLayout->addLayout(searchLayout);
     mainLayout->addWidget(searchButton);
+    resultsLabel = new QLabel("Search results will appear here", this);
+    resultsBox = new QTextEdit(this);
+    resultsBox->setReadOnly(true);
+
+    mainLayout->addWidget(resultsLabel);
+    mainLayout->addWidget(resultsBox);
     mainLayout->addWidget(cancelButton);
 
-    resultsLabel = new QLabel("Search results will appear here", this);
-    mainLayout->addWidget(resultsLabel);
+    setLayout(mainLayout);
+}
 
-    connect(searchButton, &QPushButton::clicked, this, &SearchViewCustomerWidget::performSearch);
-    connect(cancelButton, &QPushButton::clicked, this, &SearchViewCustomerWidget::cancelSearch);
+void SearchViewCustomerWidget::cancelSearch() {
+    qDebug() << "Search canceled";
+    searchLineEdit->clear();
+    resultsBox->clear();
+    // Additional logic to handle canceling the search if needed
 }
 
 void SearchViewCustomerWidget::performSearch() {
-    // Implementation for search functionality
-    // Example:
-    // QString searchTerm = searchLineEdit->text();
-    // QString searchCriteria = searchCriteriaComboBox->currentText();
-    // Implement your search logic here
+    qDebug() << "Performing search";
+    QString searchTerm = searchLineEdit->text();
+    QString searchCriteria = searchCriteriaComboBox->currentText();
+
+    // Example hardcoded customer
+    QString customerData = "Name: Anthony Rivera\n"
+                           "Address: 123 Philly St, Philadelphia\n"
+                           "Email: anthony@example.com\n"
+                           "Phone Number: 123-456-7890\n"
+                           "Account Number: 001234\n"
+                           "Plan: Basic\n";
+
+    // Check if search term matches the hardcoded customer data
+    if (searchTerm == "Anthony" && searchCriteria == "First Name") {
+        displayResults(customerData);
+    } else {
+        displayResults("No results found.");
+    }
+}
+
+void SearchViewCustomerWidget::displayResults(const QString& results) {
+    resultsBox->setText(results);
 }

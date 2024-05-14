@@ -1091,7 +1091,9 @@ CMakeFiles/MySQLConnectorExample.dir/AddCustomerWidget.cpp.o
  /opt/homebrew/opt/qt6/include/QtWidgets/qtwidgetsexports.h
  /opt/homebrew/opt/qt6/include/QtWidgets/qtwidgetsglobal.h
  /opt/homebrew/opt/qt6/include/QtWidgets/qwidget.h
+ /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QDebug
  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QString
+ /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qdebug.h
  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qstring.h
  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/QSqlDatabase
  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/qsqldatabase.h
@@ -3062,7 +3064,6 @@ CMakeFiles/MySQLConnectorExample.dir/MainWindow.cpp.o
  /Users/anthonyrivera/CLionProjects/untitled9/CustomerData.h
  /Users/anthonyrivera/CLionProjects/untitled9/MainWindow.h
  /Users/anthonyrivera/CLionProjects/untitled9/ModifyCustomerWidget.h
- /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/include/MainWindow.moc
  /Users/anthonyrivera/CLionProjects/untitled9/SearchViewCustomerWidget.h
  /opt/homebrew/opt/qt6/include/QtCore/q20functional.h
  /opt/homebrew/opt/qt6/include/QtCore/q20memory.h
@@ -3261,6 +3262,7 @@ CMakeFiles/MySQLConnectorExample.dir/MainWindow.cpp.o
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QStackedWidget
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTableWidget
+ /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QVBoxLayout
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QWidget
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qboxlayout.h
@@ -3273,6 +3275,7 @@ CMakeFiles/MySQLConnectorExample.dir/MainWindow.cpp.o
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qstackedwidget.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtablewidget.h
+ /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qwidget.h
 
 CMakeFiles/MySQLConnectorExample.dir/ModifyCustomerWidget.cpp.o
@@ -5489,6 +5492,7 @@ CMakeFiles/MySQLConnectorExample.dir/MySQLConnectorExample_autogen/mocs_compilat
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QStackedWidget
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTableWidget
+ /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QVBoxLayout
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QWidget
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qboxlayout.h
@@ -5501,6 +5505,7 @@ CMakeFiles/MySQLConnectorExample.dir/MySQLConnectorExample_autogen/mocs_compilat
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qstackedwidget.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtablewidget.h
+ /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qwidget.h
 
 CMakeFiles/MySQLConnectorExample.dir/SearchViewCustomerWidget.cpp.o
@@ -6571,6 +6576,7 @@ CMakeFiles/MySQLConnectorExample.dir/SearchViewCustomerWidget.cpp.o
  /opt/homebrew/opt/qt6/include/QtWidgets/QLayout
  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractbutton.h
  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractitemdelegate.h
+ /opt/homebrew/opt/qt6/include/QtWidgets/qabstractscrollarea.h
  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractslider.h
  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractspinbox.h
  /opt/homebrew/opt/qt6/include/QtWidgets/qboxlayout.h
@@ -6589,11 +6595,14 @@ CMakeFiles/MySQLConnectorExample.dir/SearchViewCustomerWidget.cpp.o
  /opt/homebrew/opt/qt6/include/QtWidgets/qtwidgetsexports.h
  /opt/homebrew/opt/qt6/include/QtWidgets/qtwidgetsglobal.h
  /opt/homebrew/opt/qt6/include/QtWidgets/qwidget.h
+ /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QDebug
+ /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qdebug.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QComboBox
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QFormLayout
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QLabel
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QLineEdit
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton
+ /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QVBoxLayout
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QWidget
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qboxlayout.h
@@ -6603,6 +6612,7 @@ CMakeFiles/MySQLConnectorExample.dir/SearchViewCustomerWidget.cpp.o
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlayout.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlineedit.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h
+ /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qwidget.h
 
 CMakeFiles/MySQLConnectorExample.dir/main.cpp.o
@@ -7727,6 +7737,7 @@ CMakeFiles/MySQLConnectorExample.dir/main.cpp.o
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QStackedWidget
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTableWidget
+ /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QVBoxLayout
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QWidget
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qapplication.h
@@ -7740,5 +7751,6 @@ CMakeFiles/MySQLConnectorExample.dir/main.cpp.o
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qstackedwidget.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtablewidget.h
+ /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h
  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qwidget.h
 

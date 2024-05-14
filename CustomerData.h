@@ -32,6 +32,8 @@ public:
     void modifyCustomer(const Customer& modifiedCustomer);
     std::vector<Customer> searchCustomers(const QString& searchTerm, const QString& searchCriteria);
 
+    std::vector<Customer> getHardCodedCustomers(); // New method to get hard-coded customers
+
 private:
     QSqlDatabase db;
     bool initializeDatabase();

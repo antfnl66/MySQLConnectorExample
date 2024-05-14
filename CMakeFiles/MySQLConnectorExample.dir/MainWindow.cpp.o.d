@@ -1111,17 +1111,18 @@ CMakeFiles/MySQLConnectorExample.dir/MainWindow.cpp.o: \
   /opt/homebrew/opt/qt6/include/QtWidgets/QLayout \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlayout.h \
   /Users/anthonyrivera/CLionProjects/untitled9/SearchViewCustomerWidget.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTextEdit \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtextedit.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractscrollarea.h \
   /Users/anthonyrivera/CLionProjects/untitled9/ModifyCustomerWidget.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTableWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtablewidget.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qtableview.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qabstractitemview.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractscrollarea.h \
   /opt/homebrew/opt/qt6/include/QtCore/qitemselectionmodel.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qdialog.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qdialogbuttonbox.h \
   /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QDebug \
-  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qdebug.h \
-  /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/include/MainWindow.moc
+  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qdebug.h
