@@ -2,38 +2,42 @@
 #define ADDCUSTOMERWIDGET_H
 
 #include <QWidget>
+#include <QPushButton>
 #include <QLineEdit>
 #include <QLabel>
-#include <QPushButton>
 #include <QComboBox>
 #include <QFormLayout>
+#include "CustomerData.h"
 
 class AddCustomerWidget : public QWidget {
 Q_OBJECT
 
 public:
-    explicit AddCustomerWidget(QWidget *parent = nullptr);
+    explicit AddCustomerWidget(QWidget *parent = nullptr, CustomerDatabase* db = nullptr);
 
 signals:
-    void customerAdded(const QString &firstName, const QString &lastName, const QString &email, const QString &phoneNumber, const QString &accountNumber, const QString &address, const QString &plan);
-    void cancelAddCustomer();
+    void cancelAddCustomer();  // Ensure this signal is declared
+
+private slots:
+    void addCustomerToDatabase();  // Ensure this slot is declared
 
 private:
-    QLineEdit *firstNameLineEdit;
-    QLineEdit *lastNameLineEdit;
-    QLineEdit *emailLineEdit;
-    QLineEdit *phoneNumberLineEdit;
-    QLineEdit *accountNumberLineEdit;
-    QLineEdit *addressLineEdit;
-    QLabel *firstNameLabel;
-    QLabel *lastNameLabel;
-    QLabel *emailLabel;
-    QLabel *phoneNumberLabel;
-    QLabel *accountNumberLabel;
-    QLabel *addressLabel;
-    QPushButton *saveButton;
-    QPushButton *cancelButton;
-    QComboBox *planComboBox;
+    QLineEdit* firstNameLineEdit;
+    QLineEdit* lastNameLineEdit;
+    QLineEdit* emailLineEdit;
+    QLineEdit* phoneNumberLineEdit;
+    QLineEdit* accountNumberLineEdit;
+    QLineEdit* addressLineEdit;
+    QLabel* firstNameLabel;
+    QLabel* lastNameLabel;
+    QLabel* emailLabel;
+    QLabel* phoneNumberLabel;
+    QLabel* accountNumberLabel;
+    QLabel* addressLabel;
+    QComboBox* planComboBox;  // Ensure this is declared
+    QPushButton* saveButton;
+    QPushButton* cancelButton;
+    CustomerDatabase* m_db;
 
     void setupUi();
 };

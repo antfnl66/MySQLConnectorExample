@@ -1,7 +1,27 @@
-// CustomerData.cpp
 #include "CustomerData.h"
 #include <QDebug>
 #include <QSqlQuery>
+#include <QSqlError>
+
+CustomerDatabase::CustomerDatabase() {
+    if (!initializeDatabase()) {
+        qDebug() << "Database initialization failed.";
+    }
+}
+
+bool CustomerDatabase::initializeDatabase() {
+    db = QSqlDatabase::addDatabase("QMYSQL");
+    db.setHostName("localhost");
+    db.setDatabaseName("YourDatabaseName");
+    db.setUserName("YourUsername");
+    db.setPassword("YourPassword");
+
+    if (!db.open()) {
+        qDebug() << "Error opening database:" << db.lastError().text();
+        return false;
+    }
+    return true;
+}
 
 bool CustomerDatabase::addCustomer(const QString& firstName, const QString& lastName,
                                    const QString& email, const QString& phoneNumber,
@@ -18,8 +38,10 @@ bool CustomerDatabase::addCustomer(const QString& firstName, const QString& last
     query.addBindValue(plan);
 
     if (!query.exec()) {
-        qDebug() << "Error adding customer to database:" << query.lastError().text();
+        qDebug() << "Error executing query:" << query.lastError().text();
         return false;
     }
     return true;
 }
+
+// Implement other methods if necessary

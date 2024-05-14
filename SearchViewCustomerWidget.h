@@ -2,31 +2,32 @@
 #define SEARCHVIEWCUSTOMERWIDGET_H
 
 #include <QWidget>
+#include <QPushButton>
+#include <QVBoxLayout>
 #include <QLineEdit>
 #include <QComboBox>
-#include <QTableWidget>
-#include <QPushButton>
-#include <QMessageBox> // Ensure QMessageBox is included
+#include <QLabel>
+#include <QFormLayout>
 
 class SearchViewCustomerWidget : public QWidget {
 Q_OBJECT
 
 public:
     explicit SearchViewCustomerWidget(QWidget *parent = nullptr);
-    void performSearch(const QString& searchTerm, const QString& searchCriteria);
-    void viewCustomerDetails();
 
 signals:
-    void cancelSearchViewCustomer();
+    void cancelSearch();
 
 private:
-    QLineEdit *searchLineEdit;
-    QComboBox *searchCriteriaComboBox;
-    QTableWidget *resultsTableWidget;
-    QPushButton *viewDetailsButton;
-    QPushButton *cancelButton;
+    QVBoxLayout* mainLayout;
+    QLineEdit* searchLineEdit;
+    QComboBox* searchCriteriaComboBox;
+    QLabel* resultsLabel;
+    QPushButton* searchButton;
+    QPushButton* cancelButton;
 
     void setupUi();
+    void performSearch();
 };
 
 #endif // SEARCHVIEWCUSTOMERWIDGET_H

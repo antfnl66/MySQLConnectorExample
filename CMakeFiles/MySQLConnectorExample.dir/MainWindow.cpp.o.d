@@ -1073,14 +1073,11 @@ CMakeFiles/MySQLConnectorExample.dir/MainWindow.cpp.o: \
   /Users/anthonyrivera/CLionProjects/untitled9/CustomerData.h \
   /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QString \
   /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qstring.h \
-  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/QSqlQuery \
-  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/qsqlquery.h \
+  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/QSqlDatabase \
+  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/qsqldatabase.h \
   /opt/homebrew/opt/qt6/include/QtSql/qtsqlglobal.h \
   /opt/homebrew/opt/qt6/include/QtSql/qtsql-config.h \
   /opt/homebrew/opt/qt6/include/QtSql/qtsqlexports.h \
-  /opt/homebrew/opt/qt6/include/QtSql/qsqldatabase.h \
-  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/QSqlError \
-  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/qsqlerror.h \
   /Users/anthonyrivera/CLionProjects/untitled9/AddCustomerWidget.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlineedit.h \
@@ -1114,6 +1111,7 @@ CMakeFiles/MySQLConnectorExample.dir/MainWindow.cpp.o: \
   /opt/homebrew/opt/qt6/include/QtWidgets/QLayout \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlayout.h \
   /Users/anthonyrivera/CLionProjects/untitled9/SearchViewCustomerWidget.h \
+  /Users/anthonyrivera/CLionProjects/untitled9/ModifyCustomerWidget.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTableWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtablewidget.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qtableview.h \
@@ -1124,5 +1122,6 @@ CMakeFiles/MySQLConnectorExample.dir/MainWindow.cpp.o: \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qdialog.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qdialogbuttonbox.h \
-  /Users/anthonyrivera/CLionProjects/untitled9/ModifyCustomerWidget.h \
+  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QDebug \
+  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qdebug.h \
   /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/include/MainWindow.moc

@@ -1058,10 +1058,13 @@ CMakeFiles/MySQLConnectorExample.dir/MySQLConnectorExample_autogen/mocs_compilat
   /opt/homebrew/opt/qt6/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/opt/qt6/include/QtGui/qcursor.h \
   /opt/homebrew/opt/qt6/include/QtGui/qbitmap.h \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton \
+  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractbutton.h \
+  /opt/homebrew/opt/qt6/include/QtWidgets/qwidget.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QLineEdit \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlineedit.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qframe.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qwidget.h \
   /opt/homebrew/opt/qt6/include/QtGui/qtextcursor.h \
   /opt/homebrew/opt/qt6/include/QtGui/qtextdocument.h \
   /opt/homebrew/opt/qt6/include/QtCore/qurl.h \
@@ -1072,9 +1075,6 @@ CMakeFiles/MySQLConnectorExample.dir/MySQLConnectorExample_autogen/mocs_compilat
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/opt/qt6/include/QtGui/qpicture.h \
   /opt/homebrew/opt/qt6/include/QtCore/qiodevice.h \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QPushButton \
-  /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /opt/homebrew/opt/qt6/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QComboBox \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qcombobox.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qabstractitemdelegate.h \
@@ -1098,6 +1098,14 @@ CMakeFiles/MySQLConnectorExample.dir/MySQLConnectorExample_autogen/mocs_compilat
   /opt/homebrew/opt/qt6/include/QtWidgets/qboxlayout.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qlayout.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qgridlayout.h \
+  /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/EWIEGA46WW/../../CustomerData.h \
+  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qstring.h \
+  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/QSqlDatabase \
+  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/qsqldatabase.h \
+  /opt/homebrew/opt/qt6/include/QtSql/qtsqlglobal.h \
+  /opt/homebrew/opt/qt6/include/QtSql/qtsql-config.h \
+  /opt/homebrew/opt/qt6/include/QtSql/qtsqlexports.h \
   /opt/homebrew/opt/qt6/include/QtCore/qtmochelpers.h \
   /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/EWIEGA46WW/moc_MainWindow.cpp \
   /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/EWIEGA46WW/../../MainWindow.h \
@@ -1105,18 +1113,8 @@ CMakeFiles/MySQLConnectorExample.dir/MySQLConnectorExample_autogen/mocs_compilat
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QStackedWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qstackedwidget.h \
-  /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/EWIEGA46WW/../../CustomerData.h \
-  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/QString \
-  /opt/homebrew/opt/qt6/lib/QtCore.framework/Headers/qstring.h \
-  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/QSqlQuery \
-  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/qsqlquery.h \
-  /opt/homebrew/opt/qt6/include/QtSql/qtsqlglobal.h \
-  /opt/homebrew/opt/qt6/include/QtSql/qtsql-config.h \
-  /opt/homebrew/opt/qt6/include/QtSql/qtsqlexports.h \
-  /opt/homebrew/opt/qt6/include/QtSql/qsqldatabase.h \
-  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/QSqlError \
-  /opt/homebrew/opt/qt6/lib/QtSql.framework/Headers/qsqlerror.h \
   /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/EWIEGA46WW/../../SearchViewCustomerWidget.h \
+  /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/EWIEGA46WW/../../ModifyCustomerWidget.h \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/QTableWidget \
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qtablewidget.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qtableview.h \
@@ -1127,6 +1125,5 @@ CMakeFiles/MySQLConnectorExample.dir/MySQLConnectorExample_autogen/mocs_compilat
   /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qdialog.h \
   /opt/homebrew/opt/qt6/include/QtWidgets/qdialogbuttonbox.h \
-  /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/EWIEGA46WW/../../ModifyCustomerWidget.h \
   /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/EWIEGA46WW/moc_ModifyCustomerWidget.cpp \
   /Users/anthonyrivera/CLionProjects/untitled9/MySQLConnectorExample_autogen/EWIEGA46WW/moc_SearchViewCustomerWidget.cpp

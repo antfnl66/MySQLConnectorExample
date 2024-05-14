@@ -1,11 +1,9 @@
-// CustomerData.h
 #ifndef CUSTOMERDATA_H
 #define CUSTOMERDATA_H
 
-#include <QString>
-#include <QSqlQuery>
-#include <QSqlError>
 #include <vector>
+#include <QString>
+#include <QSqlDatabase>
 
 struct Customer {
     QString firstName;
@@ -19,14 +17,24 @@ struct Customer {
 
 class CustomerDatabase {
 public:
-    CustomerDatabase() = default;
+    CustomerDatabase();
     ~CustomerDatabase() = default;
 
-    bool addCustomer(const QString& firstName, const QString& lastName,
-                     const QString& email, const QString& phoneNumber,
-                     const QString& accountNumber, const QString& address,
+    bool addCustomer(const QString& firstName,
+                     const QString& lastName,
+                     const QString& email,
+                     const QString& phoneNumber,
+                     const QString& accountNumber,
+                     const QString& address,
                      const QString& plan);
-    // Other methods...
+
+    void deleteCustomer(const QString& accountNumber);
+    void modifyCustomer(const Customer& modifiedCustomer);
+    std::vector<Customer> searchCustomers(const QString& searchTerm, const QString& searchCriteria);
+
+private:
+    QSqlDatabase db;
+    bool initializeDatabase();
 };
 
 #endif // CUSTOMERDATA_H

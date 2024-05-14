@@ -66,10 +66,10 @@ include CMakeFiles/MySQLConnectorExample_autogen_timestamp_deps.dir/compiler_dep
 # Include the progress variables for this target.
 include CMakeFiles/MySQLConnectorExample_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/MySQLConnectorExample_autogen_timestamp_deps: /opt/homebrew/opt/qt6/lib/QtSql.framework/Versions/A/QtSql
 CMakeFiles/MySQLConnectorExample_autogen_timestamp_deps: /opt/homebrew/opt/qt6/share/qt/libexec/uic
 CMakeFiles/MySQLConnectorExample_autogen_timestamp_deps: /opt/homebrew/opt/qt6/share/qt/libexec/moc
 CMakeFiles/MySQLConnectorExample_autogen_timestamp_deps: /opt/homebrew/opt/qt6/lib/QtWidgets.framework/Versions/A/QtWidgets
+CMakeFiles/MySQLConnectorExample_autogen_timestamp_deps: /opt/homebrew/opt/qt6/lib/QtSql.framework/Versions/A/QtSql
 
 MySQLConnectorExample_autogen_timestamp_deps: CMakeFiles/MySQLConnectorExample_autogen_timestamp_deps
 MySQLConnectorExample_autogen_timestamp_deps: CMakeFiles/MySQLConnectorExample_autogen_timestamp_deps.dir/build.make

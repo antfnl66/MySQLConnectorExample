@@ -37,7 +37,7 @@ namespace {
 struct qt_meta_stringdata_CLASSSearchViewCustomerWidgetENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSSearchViewCustomerWidgetENDCLASS = QtMocHelpers::stringData(
     "SearchViewCustomerWidget",
-    "cancelSearchViewCustomer",
+    "cancelSearch",
     ""
 );
 #else  // !QT_MOC_HAS_STRINGDATA
@@ -76,7 +76,7 @@ Q_CONSTINIT const QMetaObject SearchViewCustomerWidget::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSSearchViewCustomerWidgetENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<SearchViewCustomerWidget, std::true_type>,
-        // method 'cancelSearchViewCustomer'
+        // method 'cancelSearch'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -88,14 +88,14 @@ void SearchViewCustomerWidget::qt_static_metacall(QObject *_o, QMetaObject::Call
         auto *_t = static_cast<SearchViewCustomerWidget *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->cancelSearchViewCustomer(); break;
+        case 0: _t->cancelSearch(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
             using _t = void (SearchViewCustomerWidget::*)();
-            if (_t _q_method = &SearchViewCustomerWidget::cancelSearchViewCustomer; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &SearchViewCustomerWidget::cancelSearch; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
@@ -135,7 +135,7 @@ int SearchViewCustomerWidget::qt_metacall(QMetaObject::Call _c, int _id, void **
 }
 
 // SIGNAL 0
-void SearchViewCustomerWidget::cancelSearchViewCustomer()
+void SearchViewCustomerWidget::cancelSearch()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }

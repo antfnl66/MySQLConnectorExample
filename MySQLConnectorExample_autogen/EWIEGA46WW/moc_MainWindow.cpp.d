@@ -250,11 +250,8 @@
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtGui.framework/Versions/A/Headers/qvalidator.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/QSqlError \
-  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/QSqlQuery \
+  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/QSqlDatabase \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qsqldatabase.h \
-  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qsqlerror.h \
-  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qsqlquery.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qtsql-config.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qtsqlexports.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qtsqlglobal.h \

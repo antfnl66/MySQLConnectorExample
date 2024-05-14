@@ -91,6 +91,8 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/wait.h \
+  /Users/anthonyrivera/CLionProjects/untitled9/CustomerData.h \
+  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtCore.framework/Versions/A/Headers/QString \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -244,6 +246,11 @@
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtGui.framework/Versions/A/Headers/qvalidator.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/QSqlDatabase \
+  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qsqldatabase.h \
+  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qtsql-config.h \
+  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qtsqlexports.h \
+  /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtSql.framework/Versions/A/Headers/qtsqlglobal.h \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QComboBox \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QFormLayout \
   /opt/homebrew/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
